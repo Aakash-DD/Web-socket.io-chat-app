@@ -10,7 +10,7 @@ console.log('server running...');
 
 //C:\Users\AAKASH\Desktop\New folder\iochat
 
-app.get('./',function(req,res){
+app.get('/',function(req,res){
 	res.sendFile(console.log(__dirname) + '/index.html');
 });
 
